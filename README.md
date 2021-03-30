@@ -1,5 +1,7 @@
 # File Manager for Froala
 
+[See on GitHub](https://github.com/edsdk/froala-file-manager)
+
 This plugin for Froala editor includes Flmngr file manager into it. It will let you to choose files and images from your own server file storage and manage all uploads.
 
 Flmngr file manager for Froala supports PHP on server side and can be easily extended with [Image Editor for Froala](https://froala-image-editor).
