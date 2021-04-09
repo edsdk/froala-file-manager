@@ -83,7 +83,7 @@ An URL of the PHP script handling all the requests to the server from Froala fil
 
 **`urlFiles`** (*required*)
 \
-An URL prefix which will be used to generate full URL to uploaded and inserted files. Should link to the directory you specified in the second step of installation as `dirFiles` (you specified directory on disc for server script, and not you specify which URL is associated with this directory).
+An URL prefix which will be used to generate full URL to uploaded and inserted files. Should link to the directory you specified in the second step of installation as `dirFiles` (you specified directory on disc for server script, and not you specify which URL is associated with this directory). *Please use absolute URL prefix here to avoid Froala-specifix issue (it thinks URLs starting with "/" are external and tries to relocate image without a need).*
 
 **`defaultUploadDir`**
 \
