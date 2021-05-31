@@ -2,9 +2,9 @@
 
 [See on GitHub](https://github.com/edsdk/froala-file-manager)
 
-This plugin for Froala editor includes Flmngr file manager into it. It will let you to choose files and images from your own server file storage and manage all uploads.
+This plugin for Froala editor includes Flmngr file manager into it. It will let you choose files and images from your own server file storage and manage all uploads.
 
-Flmngr file manager for Froala supports PHP on server side and can be easily extended with [Image Editor for Froala](https://froala-image-editor).
+Flmngr file manager for Froala supports PHP on server side and can be easily extended with [Image Editor for Froala](https://froala-image-editor.com).
 
 ## Installation
 
@@ -14,7 +14,7 @@ There are just 3 simple steps to start using Froala File Manager:
 
 The installation is the same as for any other Froala plugin.
 
-Include this script into your document near the place where you include main script of Froala:
+Include this script into your document near the place where you include the main script of Froala:
 
 ```javascript
 <script src="https://cdn.jsdelivr.net/gh/edsdk/froala-file-manager@latest/js/froala-file-manager.js"></script>
@@ -55,7 +55,7 @@ See three paths - you need to configure them. We recommend you to use absolute p
 
 #### ...or install it from the ZIP archive
 
-Alternatively you can install it from prebuilt [ZIP package](https://n1ed.com/download/flmngr-php.zip) if you do not use Composer package manager. The example is inside, please configure paths there as described above.
+Alternatively, you can install it from the prebuilt [ZIP package](https://n1ed.com/download/flmngr-php.zip) if you do not use Composer package manager. The example is inside, please configure paths there as described above.
 
 ### 3. Link add-on to server side script
 
@@ -75,19 +75,19 @@ That's all.
 
 ## Configuration
 
-All the parameters you pass to Flmngr should be wrapped with `Flmngr` section like in installation sample above. And here is the list of available parameters:
+All the parameters you pass to Flmngr should be wrapped with `Flmngr` section like in the installation sample above. And here is the list of available parameters:
 
 **`urlFileManager`** (*required*)
 \
-An URL of the PHP script handling all the requests to the server from Froala file manager. This is an URL of the script you've installed on the second step of installation manual.
+An URL of the PHP script handling all the requests to the server from Froala file manager. This is the URL of the script you've installed on the second step of the installation manual.
 
 **`urlFiles`** (*required*)
 \
-An URL prefix which will be used to generate full URL to uploaded and inserted files. Should link to the directory you specified in the second step of installation as `dirFiles` (you specified directory on disc for server script, and not you specify which URL is associated with this directory).
+An URL prefix which will be used to generate a full URL to uploaded and inserted files. Should link to the directory you specified in the second step of installation as `dirFiles` (you specified directory on disc for server script, and not you specify which URL is associated with this directory).
 
 **`defaultUploadDir`**
 \
-A subdirectory related to the root of your storage (`dirFiles`) where all the quick uploads will be placed to. Default value is `/` meaning uploading to the root of your storage directory.
+A subdirectory related to the root of your storage (`dirFiles`) where all the quick uploads will be placed to. The default value is `/` meaning uploading to the root of your storage directory.
 
 **`apiKey`**
 \
@@ -96,7 +96,7 @@ Premium users need to specify their API key to use all the power of Flmngr file 
 
 ## Pricing
 
-Flmngr comes together with ImgPen image editor and requires the annual subscription with the price of **$99 and lower** per each website depending of the number of websites you use it on. Please install Flmngr plugin into your Froala and it will lead you to payment. 
+Flmngr comes together with ImgPen image editor and requires the annual subscription with the price of **$99 and lower** per website depending on the number of websites you use it on. Please install Flmngr plugin into your Froala and it will lead you to payment.
 
 *Note*: one license is for one domain you publish content on (not for the domain used for editing). One domain is limited with 15 users (special pricing for big projects). We successfully collaborate with SaaS projects and will give you discounted bulk pricing - just ask for a quote writing to [support](mailto:support@n1ed.zendesk.com).
 
