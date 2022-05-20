@@ -12,7 +12,11 @@
     <a href="https://flmngr.com/">Home page</a> ∙ <a href="https://flmngr.com/doc/install-froala-plugin/">Install</a> ∙ <a href="https://codepen.io/N1ED/pen/poNwPgo">Try Online</a>
 </p>
 
-[![File manager for Froala](https://n1ed.com/img/screenshots/docs/addons/file-manager/froala-flmngr.jpg)](https://flmngr.com/)
+<p align="center">
+    <a href="https://flmngr.com/">
+        <img src="https://n1ed.com/img/screenshots/docs/addons/file-manager/froala-flmngr.jpg" alt="File manager for Froala">
+    </a>
+</p>
 
 ## Intro
 
