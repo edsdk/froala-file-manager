@@ -1,10 +1,20 @@
-# File Manager for Froala
+<p align="center">
+    <a href="https://flmngr.com/"><img src="https://flmngr.com/img/Flmngr.png" alt="Flmngr" width="90" /></a>
+</p>
 
-[See on GitHub](https://github.com/edsdk/froala-file-manager)
+<h1 align="center">Froala file manager</h1>
 
-![File manager for Froala](https://n1ed.com/img/screenshots/docs/addons/file-manager/froala-flmngr.jpg)
+<p align="center">
+    <strong>Flmngr is Froala plugin for managing your media library. 30000+ free stock photos. 🔥</strong>
+</p>
 
-[See demo](https://codepen.io/N1ED/pen/poNwPgo)
+<p align="center">
+    <a href="https://flmngr.com/">Home page</a> ∙ <a href="https://flmngr.com/doc/install-froala-plugin/">Install</a> ∙ <a href="https://codepen.io/N1ED/pen/poNwPgo">Try Online</a>
+</p>
+
+[![File manager for Froala](https://n1ed.com/img/screenshots/docs/addons/file-manager/froala-flmngr.jpg)](https://flmngr.com/)
+
+## Intro
 
 This plugin for Froala editor includes Flmngr file manager into it. It will let you choose files and images from your own server file storage and manage all uploads.
 
