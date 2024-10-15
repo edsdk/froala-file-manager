@@ -22,7 +22,7 @@
 
 This plugin for Froala editor includes Flmngr file manager into it. It will let you choose files and images from your own server file storage and manage all uploads.
 
-Flmngr file manager for Froala supports PHP on server side and can be easily extended with [Image Editor for Froala](https://froala-image-editor.com).
+Flmngr file manager for Froala supports PHP on server side and includes an image editor.
 
 ## Installation
 
@@ -30,17 +30,20 @@ There are just 3 simple steps to start using Froala File Manager:
 
 ### 1. Install the add-on
 
-The installation is the same as for any other Froala plugin.
+The [installation](https://flmngr.com/doc/install-froala-plugin) is the same as for any other Froala plugin.
 
 Include this script into your document near the place where you include the main script of Froala:
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/gh/edsdk/froala-file-manager@latest/js/froala-file-manager.js"></script>
+<script src="https://cloud.n1ed.com/v/latest/froala/froala-file-manager.js"></script>
+<script src="https://cloud.n1ed.com/v/latest/froala/froala-image-editor.js"></script>
 ```
 
 ### 2. Install server side script
 
-Install [PHP package](https://packagist.org/packages/edsdk/flmngr-server-php) of the file manager to somewhere on your server by this command:
+You can read the [documentation](https://flmngr.com/doc/install-file-manager-server-side) for all integrations.
+
+For example let's install [PHP package](https://flmngr.com/doc/install-file-manager-server-php-composer) of the file manager to somewhere on your server by this command:
 
 ```sh
 composer require edsdk/flmngr-server-php
@@ -61,8 +64,6 @@ and then call it in the URL handler you need like:
     FlmngrServer::flmngrRequest(
         array(
             'dirFiles' => 'path-to/files',
-            'dirTmp'   => 'path-to/tmp',
-            'dirCache'   => 'path-to/cache'
         )
     );
 ```
@@ -73,7 +74,7 @@ See three paths - you need to configure them. We recommend you to use absolute p
 
 #### ...or install it from the ZIP archive
 
-Alternatively, you can install it from the prebuilt [ZIP package](https://n1ed.com/download/flmngr-php.zip) if you do not use Composer package manager. The example is inside, please configure paths there as described above.
+Alternatively, you can install it from the prebuilt [ZIP package](https://flmngr.com/doc/install-file-manager-server-php-script) if you do not use Composer package manager. The example is inside, please configure paths there as described above.
 
 ### 3. Link add-on to server side script
 
@@ -112,15 +113,9 @@ A subdirectory related to the root of your storage (`dirFiles`) where all the qu
 Premium users need to specify their API key to use all the power of Flmngr file manager for Froala.
 
 
-## Pricing
-
-Flmngr comes together with ImgPen image editor and requires the annual subscription with the price of **$99 and lower** per website depending on the number of websites you use it on. Please install Flmngr plugin into your Froala and it will lead you to payment.
-
-*Note*: one license is for one domain you publish content on (not for the domain used for editing). One domain is limited with 15 users (special pricing for big projects). We successfully collaborate with SaaS projects and will give you discounted bulk pricing - just ask for a quote writing to [support](mailto:support@helpdesk.edsdk.com).
-
 ## Who we are
 
-Flmngr is the file manager developed by [EdSDK/N1ED](https://n1ed.com) team.
-We work on the tools for WYSIWYG editors such as CKEditor and TinyMCE for about 10 years.
+[Flmngr](https://flmngr.com) is the file manager developed by [EdSDK](https://edsdk.com) team, whose the primary product is [N1ED](https://n1ed.com).
+We work on the tools for WYSIWYG editors such as CKEditor and TinyMCE about 20 years and support Froala now as well.
 
-We've ported Flmngr file manager and [ImgPen image editor](https://froala-image-editor.com) to Froala after a number of user requests and hope you will love it and support us by purchasing a commercial license.
+We've ported Flmngr file manager with image editor to Froala after a number of user requests and hope you will love it and support us by purchasing a commercial license unlocking a lot of handy features.
