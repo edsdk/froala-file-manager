@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-    <a href="https://flmngr.com/">Home page</a> ∙ <a href="https://flmngr.com/doc/install-froala-plugin/">Install</a> ∙ <a href="https://codepen.io/flmngr/pen/VwEvYMN">Try Online</a>
+    <a href="https://flmngr.com/">Home page</a> ∙ <a href="https://flmngr.com/doc/install-froala-plugin/">Install</a> ∙ <a href="https://codeplay.democdn.com/flmngr/VwEvYMN">Try Online</a>
 </p>
 
 <p align="center">
